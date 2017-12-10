@@ -17,6 +17,17 @@
     <!-- Category name for Sign Up [CHAR LIMIT=20] -->
     <string name="category_sign_up">Sign Up</string>
 
+    <!-- String name for Cat Gender [CHAR LIMIT=20] -->
+    <string name="cat_adoption_gender">Gender</string>
+    <!-- String name for Cat Health Status [CHAR LIMIT=20] -->
+    <string name="cat_health_status">Health Status</string>
+    <!-- String name for Cat Name [CHAR LIMIT=20] -->
+    <string name="cat_upload_name">name</string>
+    <!-- String name for Cat Name [CHAR LIMIT=20] -->
+    <string name="cat_upload_description">Description</string>
+    <!-- String name for Cat Name [CHAR LIMIT=20] -->
+    <string name="cat_upload_button">Upload</string>
+
     <string name="app_name">PRASIKU</string>
     <string name="sign_in_default">Sign In</string>
     <string name="sign_in_fb">Sign In with Facebook</string>
@@ -35,7 +46,5 @@
     <string name="password_reset">Enter Your Email</string>
     <string name="reset_button">reset your password</string>
 
-    <string name="cat_adoption_gender">cat adoption gender</string>
-    <string name="cat_adoption_health">cat adoption health</string>
     <string name="cat_adoption_search">search</string>
 </resources>

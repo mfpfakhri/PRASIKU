@@ -1,9 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16sp"
     tools:context="com.example.android.prasikuv11.UploadAnimalActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/cat_upload_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/cat_upload_name" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:text="@string/cat_adoption_gender"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+        <RadioButton
+            android:id="@+id/cat_adoption_male"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/cat_adoption_female"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_health_status"
+        android:textAllCaps="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+        <RadioButton
+            android:id="@+id/cat_adoption_vaccine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Vaccine"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/cat_adoption_steril"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Spay/ Neuter"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Spinner
+        android:id="@+id/cat_adoption_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <EditText
+        android:id="@+id/cat_upload_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/cat_upload_description" />
+    <Button
+        android:id="@+id/cat_adoption_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cat_upload_button"
+        android:textAllCaps="true"/>
+</LinearLayout>
