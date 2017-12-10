@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16sp"
+    tools:context="com.example.android.prasikuv11.HomeActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/cat_breeds"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"
+            android:onClick="openBreeds"
+            android:text="@string/category_cat_breeds" />
+
+        <Button
+            android:id="@+id/cat_adoption"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"
+            android:onClick="openCatAdoption"
+            android:text="@string/category_find_cat_adoption" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/upload_animal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/category_upload_animal"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:onClick="openUploadAnimal"/>
+        <Button
+            android:id="@+id/adoption_form_received"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:text="@string/category_adoption_form_received"
+            android:layout_weight="1"
+            android:onClick="openAdoptionFormReceived"/>
+    </LinearLayout>
+</LinearLayout>
