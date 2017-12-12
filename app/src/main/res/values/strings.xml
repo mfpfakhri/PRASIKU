@@ -28,6 +28,37 @@
     <!-- String name for Cat Name [CHAR LIMIT=20] -->
     <string name="cat_upload_button">Upload</string>
 
+    <!-- String name for Phone in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_phone">Your phone number</string>
+    <!-- String name for Email in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_email">Your email</string>
+    <!-- String name for Job in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_job">Your job (optional)</string>
+    <!-- String name for Address in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_address">Your address</string>
+    <!-- String name for Reason in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_reason">Why do you want to adopt?</string>
+    <!-- String name for Number of Animal in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_number_of_animal">How many other animal(s) at your home? Please Describe</string>
+    <!-- String name for House Size in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_house_size">House Size (Approx. in m2)</string>
+    <!-- String name for Number of People in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_number_of_people">number of people in your house</string>
+    <!-- String name for Animal Place in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_animal_live">Where will the animals live in the house?</string>
+    <!-- String name for House Type in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_house_type_string">house type</string>
+    <!-- String name for House Member Permission in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_house_member_permission_switch">House Member Permission</string>
+    <!-- String name for Plan to Move in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_plan_to_move_switch">Plan to Move</string>
+    <!-- String name for After Marriage Plan in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_after_marriage_plan_switch">After Marriage Plan</string>
+    <!-- String name for Kid(s) in Your House in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_kids_in_the_house_switch">Kid(s) in Your House</string>
+    <!-- String name for Financial Plan in Adoption Form [CHAR LIMIT=20] -->
+    <string name="adoption_financial_plan">Your Financial Plan</string>
+
     <string name="app_name">PRASIKU</string>
     <string name="sign_in_default">Sign In</string>
     <string name="sign_in_fb">Sign In with Facebook</string>

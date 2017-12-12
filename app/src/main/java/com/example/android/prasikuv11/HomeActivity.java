@@ -21,11 +21,11 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(catadoption);
     }
     public void openUploadAnimal(View view){
-        Intent catadoption = new Intent(this, UploadAnimalActivity.class);
-        startActivity(catadoption);
+        Intent uploadanimal = new Intent(this, UploadAnimalActivity.class);
+        startActivity(uploadanimal);
     }
     public void openAdoptionFormReceived(View view){
-        Intent catadoption = new Intent(this, AdoptionFormReceivedActivity.class);
-        startActivity(catadoption);
+        Intent adoptionformreceived = new Intent(this, AdoptionFormReceivedActivity.class);
+        startActivity(adoptionformreceived);
     }
 }
