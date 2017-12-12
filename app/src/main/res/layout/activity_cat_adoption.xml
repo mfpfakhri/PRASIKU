@@ -20,12 +20,12 @@
         android:layout_height="wrap_content"></Spinner>
 
     <TextView
-        android:id="@+id/cat_adoption_gender"
+        android:id="@+id/cat_adoption_gender_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="8dp"
-        android:text="@string/cat_adoption_gender"
+        android:text="@string/cat_adoption_gender_text"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -35,14 +35,14 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/cat_adoption_male"
+            android:id="@+id/cat_adoption_gender_male_radio_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Male" />
 
         <RadioButton
-            android:id="@+id/cat_adoption_female"
+            android:id="@+id/cat_adoption_gender_female_radio_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,12 +50,11 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/health_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="8dp"
-        android:text="@string/cat_health_status"
+        android:text="@string/cat_adoption_health_status"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -65,14 +64,14 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/cat_adoption_vaccine"
+            android:id="@+id/cat_adoption_vaccine_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Vaccine" />
 
         <RadioButton
-            android:id="@+id/cat_adoption_steril"
+            android:id="@+id/cat_adoption_spay_neuter_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -83,6 +82,7 @@
         android:id="@+id/cat_adoption_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8sp"
         android:text="@string/cat_adoption_search"
         android:textAllCaps="true" />
 </LinearLayout>

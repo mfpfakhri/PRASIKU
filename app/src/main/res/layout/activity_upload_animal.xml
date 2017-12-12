@@ -16,12 +16,12 @@
         android:hint="@string/cat_upload_name" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cat_upload_gender_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="8dp"
-        android:text="@string/cat_adoption_gender"
+        android:text="@string/cat_upload_gender_text"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -31,14 +31,14 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/cat_adoption_male"
+            android:id="@+id/cat_upload_gender_male_radio_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Male" />
 
         <RadioButton
-            android:id="@+id/cat_adoption_female"
+            android:id="@+id/cat_upload_gender_female_radio_button"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="8dp"
-        android:text="@string/cat_health_status"
+        android:text="@string/cat_upload_health_status"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -60,14 +60,14 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:id="@+id/cat_adoption_vaccine"
+            android:id="@+id/cat_upload_vaccine_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Vaccine" />
 
         <RadioButton
-            android:id="@+id/cat_adoption_steril"
+            android:id="@+id/cat_upload_spay_neuter_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -75,8 +75,21 @@
     </LinearLayout>
 
     <Spinner
-        android:id="@+id/cat_adoption_city"
+        android:id="@+id/cat_upload_province"
         android:layout_width="match_parent"
+        android:layout_marginBottom="16sp"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Spinner
+        android:id="@+id/cat_upload_city"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16sp"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Spinner
+        android:id="@+id/cat_upload_reason"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16sp"
         android:layout_height="wrap_content"></Spinner>
 
     <EditText
@@ -87,7 +100,7 @@
         android:hint="@string/cat_upload_description" />
 
     <Button
-        android:id="@+id/cat_adoption_search"
+        android:id="@+id/cat_upload_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cat_upload_button"

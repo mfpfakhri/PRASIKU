@@ -17,16 +17,43 @@
     <!-- Category name for Sign Up [CHAR LIMIT=20] -->
     <string name="category_sign_up">Sign Up</string>
 
-    <!-- String name for Cat Gender [CHAR LIMIT=20] -->
-    <string name="cat_adoption_gender">Gender</string>
-    <!-- String name for Cat Health Status [CHAR LIMIT=20] -->
-    <string name="cat_health_status">Health Status</string>
     <!-- String name for Cat Name [CHAR LIMIT=20] -->
     <string name="cat_upload_name">name</string>
-    <!-- String name for Cat Name [CHAR LIMIT=20] -->
+    <!-- String name for Cat Gender in Animal Upload Category[CHAR LIMIT=20] -->
+    <string name="cat_upload_gender_text">Gender</string>
+    <!-- String name for Male Cat Gender in Animal Upload Category [CHAR LIMIT=20] -->
+    <string name="cat_upload_gender_male_radio_button">male</string>
+    <!-- String name for Female Cat Gender in Animal Upload  Category [CHAR LIMIT=20] -->
+    <string name="cat_upload_gender_female_radio_button">female</string>
+    <!-- String name for Cat Health Status in Animal Upload  Category [CHAR LIMIT=20] -->
+    <string name="cat_upload_health_status">Health Status</string>
+    <!-- String name for Cat Vaccine Status in Animal Upload  Category [CHAR LIMIT=20] -->
+    <string name="cat_upload_vaccine_status">Vaccine</string>
+    <!-- String name for Cat Spay/ Neuter Status in Animal Upload  Category [CHAR LIMIT=20] -->
+    <string name="cat_upload_spay_neuter_status">Spay/ Neuter</string>
+    <!-- String name for Cat Description in Animal Upload  Category [CHAR LIMIT=20] -->
     <string name="cat_upload_description">Description</string>
-    <!-- String name for Cat Name [CHAR LIMIT=20] -->
+    <!-- String name for Upload Button in Animal Upload  Category [CHAR LIMIT=20] -->
     <string name="cat_upload_button">Upload</string>
+
+
+    <!-- String name for Cat Gender in Cat Adoption Category[CHAR LIMIT=20] -->
+    <string name="cat_adoption_province"></string>
+    <!-- String name for Cat Gender in Cat Adoption Category[CHAR LIMIT=20] -->
+    <string name="cat_adoption_city"></string>
+    <!-- String name for Cat Gender in Cat Adoption Category[CHAR LIMIT=20] -->
+    <string name="cat_adoption_gender_text">Gender</string>
+    <!-- String name for Male Cat Gender in Cat Adoption Category [CHAR LIMIT=20] -->
+    <string name="cat_adoption_gender_male_radio_button">male</string>
+    <!-- String name for Female Cat Gender in Cat Adoption Category [CHAR LIMIT=20] -->
+    <string name="cat_adoption_gender_female_radio_button">female</string>
+    <!-- String name for Cat Health Status in Cat Adoption Category [CHAR LIMIT=20] -->
+    <string name="cat_adoption_health_status">Health Status</string>
+    <!-- String name for Cat Vaccine Status in Cat Adoption Category [CHAR LIMIT=20] -->
+    <string name="cat_adoption_vaccine_status">Vaccine</string>
+    <!-- String name for Cat Spay/ Neuter Status [CHAR LIMIT=20] -->
+    <string name="cat_adoption_spay_neuter_status">Spay/ Neuter</string>
+
 
     <!-- String name for Phone in Adoption Form [CHAR LIMIT=20] -->
     <string name="adoption_phone">Your phone number</string>
@@ -46,6 +73,7 @@
     <string name="adoption_number_of_people">number of people in your house</string>
     <!-- String name for Animal Place in Adoption Form [CHAR LIMIT=20] -->
     <string name="adoption_animal_live">Where will the animals live in the house?</string>
+    <!-- String name for Cat Condition in Adoption Form [CHAR LIMIT=20] -->
     <string name="adoption_conditions">Have You considered these conditions before adopting?</string>
     <!-- String name for House Type in Adoption Form [CHAR LIMIT=20] -->
     <string name="adoption_house_type_string">house type</string>
