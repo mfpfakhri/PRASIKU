@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="province_spinner">
+        <item name = "default_null">- Select Province -</item>
         <item name = "nad">Nanggroe Aceh Darussalam</item>
         <item name = "sumatera_utara">Sumatera Utara</item>
         <item name = "sumatera_barat">Sumatera Barat</item>
@@ -37,6 +38,7 @@
         <item name = "papua">Papua</item>
     </string-array>
     <string-array name="city_spinner">
+        <item name = "default_null">- Select Your City -</item>
         <item name = "kep_seribu">Kabupaten Kepulauan Seribu</item>
         <item name = "jakarta_barat">Kota Jakarta Barat</item>
         <item name = "jakarta_pusat">Kota Jakarta Pusat</item>
@@ -45,6 +47,7 @@
         <item name = "jakarta_utara">Kota Jakarta Utara</item>
     </string-array>
     <string-array name="reason_spinner">
+        <item name = "default_null">- Choose The Reason -</item>
         <item name = "stray">Stray</item>
         <item name = "abandoned">Abandoned</item>
         <item name = "abused">Abused</item>
@@ -54,6 +57,15 @@
         <item name = "financial">Financial</item>
         <item name = "medical_problem">Medical Problem</item>
         <item name = "others">Others</item>
+    </string-array>
+    <string-array name="house_type_spinner">
+        <item name = "default_null">- Select House Type -</item>
+        <item name = "stray">Home</item>
+        <item name = "abandoned">Rent</item>
+        <item name = "abused">Boarding House</item>
+        <item name = "owner_dead">Apartement/ Condotel</item>
+        <item name = "owner_give_up">Warehouse</item>
+        <item name = "house_moving">Others</item>
     </string-array>
     <string-array name="cat_breeds_spinner">
         <item name = "abyssinian">Abyssinian</item>

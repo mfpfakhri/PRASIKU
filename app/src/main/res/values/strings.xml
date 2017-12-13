@@ -75,8 +75,6 @@
     <string name="adoption_animal_live">Where will the animals live in the house?</string>
     <!-- String name for Cat Condition in Adoption Form [CHAR LIMIT=20] -->
     <string name="adoption_conditions">Have You considered these conditions before adopting?</string>
-    <!-- String name for House Type in Adoption Form [CHAR LIMIT=20] -->
-    <string name="adoption_house_type_string">house type</string>
     <!-- String name for House Member Permission in Adoption Form [CHAR LIMIT=20] -->
     <string name="adoption_house_member_permission_switch_text">House Member Permission</string>
     <!-- String name for Plan to Move in Adoption Form [CHAR LIMIT=20] -->

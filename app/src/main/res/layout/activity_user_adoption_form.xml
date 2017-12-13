@@ -62,9 +62,9 @@
             android:hint="@string/adoption_number_of_animal" />
 
         <Spinner
-            android:id="@+id/adoption_house_type_string"
+            android:id="@+id/user_adoption_spinner_house_type"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"></Spinner>
+            android:layout_height="wrap_content"/>
 
         <EditText
             android:id="@+id/adoption_house_size"
