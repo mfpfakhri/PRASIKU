@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="signup_province_spinner">
+        <item name = "nad">Nanggroe Aceh Darussalam</item>
+        <item name = "sumatera_utara">Sumatera Utara</item>
+        <item name = "sumatera_barat">Sumatera Barat</item>
+        <item name = "riau">Riau</item>
+        <item name = "riau_kep">Kepulauan Riau</item>
+        <item name = "jambi">Jambi</item>
+        <item name = "sumatera_selatan">Sumatera Selatan</item>
+        <item name = "bangka_belitung">Bangka Belitung</item>
+        <item name = "bengkulu">Bengkulu</item>
+        <item name = "lampung">Lampung</item>
+        <item name = "banten">Banten</item>
+        <item name = "dki_jakarta">DKI Jakarta</item>
+        <item name = "jawa_barat">Jawa Barat</item>
+        <item name = "jawa_tengah">Jawa Tengah</item>
+        <item name = "diy">DI Yogyakarta</item>
+        <item name = "jawa_timur">Jawa Timur</item>
+        <item name = "bali">Bali</item>
+        <item name = "ntb">Nusa Tenggara Barat</item>
+        <item name = "ntt">Nusa Tenggara Timur</item>
+        <item name = "kalimantan_barat">Kalimantan Barat</item>
+        <item name = "kalimantan_tengah">Kalimantan Tengah</item>
+        <item name = "kalimantan_selatan">Kalimantan Selatan</item>
+        <item name = "kalimantan_timur">Kalimantan Timur</item>
+        <item name = "kalimantan_utara">Kalimantan Utara</item>
+        <item name = "sulawesi_utara">Sulawesi Utara</item>
+        <item name = "sulawesi_barat">Sulawesi Barat</item>
+        <item name = "sulawesi_tengah">Sulawesi Tengah</item>
+        <item name = "sulawesi_tenggara">Sulawesi Tenggara</item>
+        <item name = "sulawesi_selatan">Sulawesi Selatan</item>
+        <item name = "gorontalo">Gorontalo</item>
+        <item name = "maluku">Maluku</item>
+        <item name = "maluku_utara">Maluku Utara</item>
+        <item name = "papua_barat">Papua Barat</item>
+        <item name = "papua">Papua</item>
+    </string-array>
+    <string-array name="signup_city_spinner">
+        <item name = "kep_seribu">Kabupaten Kepulauan Seribu</item>
+        <item name = "jakarta_barat">Kota Jakarta Barat</item>
+        <item name = "jakarta_pusat">Kota Jakarta Pusat</item>
+        <item name = "jakarta_selatan">Kota Jakarta Selatan</item>
+        <item name = "jakarta_timur">Kota Jakarta Timur</item>
+        <item name = "jakarta_utara">Kota Jakarta Utara</item>
+    </string-array>
+</resources>
