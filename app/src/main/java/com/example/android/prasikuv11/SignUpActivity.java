@@ -12,17 +12,17 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        Spinner spinnerProvince = (Spinner) findViewById(R.id.spinner_province);
+        Spinner spinnerProvince = (Spinner) findViewById(R.id.signup_spinner_province);
         // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<CharSequence> signUpProvinceAdapter = ArrayAdapter.createFromResource(this, R.array.signup_province_spinner, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> signUpProvinceAdapter = ArrayAdapter.createFromResource(this, R.array.province_spinner, android.R.layout.simple_spinner_item);
         // Specify the layout to use when the list of choices appears
         signUpProvinceAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner
         spinnerProvince.setAdapter(signUpProvinceAdapter);
 
-        Spinner spinnerCity = (Spinner) findViewById(R.id.spinner_city);
+        Spinner spinnerCity = (Spinner) findViewById(R.id.signup_spinner_city);
         // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<CharSequence> signUpCityAdapter = ArrayAdapter.createFromResource(this, R.array.signup_city_spinner, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> signUpCityAdapter = ArrayAdapter.createFromResource(this, R.array.city_spinner, android.R.layout.simple_spinner_item);
         // Specify the layout to use when the list of choices appears
         signUpCityAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner

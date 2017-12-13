@@ -76,14 +76,14 @@
                 android:hint="@string/password" />
 
             <Spinner
-                android:id="@+id/spinner_province"
+                android:id="@+id/signup_spinner_province"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:spinnerMode="dropdown"
                 android:layout_marginBottom="16sp"/>
 
             <Spinner
-                android:id="@+id/spinner_city"
+                android:id="@+id/signup_spinner_city"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:spinnerMode="dropdown"

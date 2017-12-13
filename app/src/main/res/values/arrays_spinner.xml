@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="signup_province_spinner">
+    <string-array name="province_spinner">
         <item name = "nad">Nanggroe Aceh Darussalam</item>
         <item name = "sumatera_utara">Sumatera Utara</item>
         <item name = "sumatera_barat">Sumatera Barat</item>
@@ -36,7 +36,7 @@
         <item name = "papua_barat">Papua Barat</item>
         <item name = "papua">Papua</item>
     </string-array>
-    <string-array name="signup_city_spinner">
+    <string-array name="city_spinner">
         <item name = "kep_seribu">Kabupaten Kepulauan Seribu</item>
         <item name = "jakarta_barat">Kota Jakarta Barat</item>
         <item name = "jakarta_pusat">Kota Jakarta Pusat</item>
