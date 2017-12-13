@@ -44,6 +44,17 @@
         <item name = "jakarta_timur">Kota Jakarta Timur</item>
         <item name = "jakarta_utara">Kota Jakarta Utara</item>
     </string-array>
+    <string-array name="reason_spinner">
+        <item name = "stray">Stray</item>
+        <item name = "abandoned">Abandoned</item>
+        <item name = "abused">Abused</item>
+        <item name = "owner_dead">Owner Dead</item>
+        <item name = "owner_give_up">Owner Give Up</item>
+        <item name = "house_moving">House Moving</item>
+        <item name = "financial">Financial</item>
+        <item name = "medical_problem">Medical Problem</item>
+        <item name = "others">Others</item>
+    </string-array>
     <string-array name="cat_breeds_spinner">
         <item name = "abyssinian">Abyssinian</item>
         <item name = "american_bobtail">American Bobtail</item>

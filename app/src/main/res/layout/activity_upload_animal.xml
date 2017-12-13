@@ -75,22 +75,22 @@
     </LinearLayout>
 
     <Spinner
-        android:id="@+id/cat_upload_province"
+        android:id="@+id/cat_upload_spinner_province"
         android:layout_width="match_parent"
         android:layout_marginBottom="16sp"
-        android:layout_height="wrap_content"></Spinner>
+        android:layout_height="wrap_content"/>
 
     <Spinner
-        android:id="@+id/cat_upload_city"
+        android:id="@+id/cat_upload_spinner_city"
         android:layout_width="match_parent"
         android:layout_marginBottom="16sp"
-        android:layout_height="wrap_content"></Spinner>
+        android:layout_height="wrap_content"/>
 
     <Spinner
-        android:id="@+id/cat_upload_reason"
+        android:id="@+id/cat_upload_spinner_reason"
         android:layout_width="match_parent"
         android:layout_marginBottom="16sp"
-        android:layout_height="wrap_content"></Spinner>
+        android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/cat_upload_description"
