@@ -36,19 +36,25 @@
         android:layout_marginBottom="16dp"
         android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/cat_adoption_gender_male_radio_button"
-            android:layout_width="0dp"
+        <RadioGroup
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Male" />
+            android:orientation="horizontal">
 
-        <RadioButton
-            android:id="@+id/cat_adoption_gender_female_radio_button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Female" />
+            <RadioButton
+                android:id="@+id/cat_adoption_gender_male_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/cat_adoption_gender_female_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+        </RadioGroup>
     </LinearLayout>
 
     <TextView
@@ -65,14 +71,14 @@
         android:layout_marginBottom="16dp"
         android:orientation="horizontal">
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/cat_adoption_vaccine_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Vaccine" />
 
-        <RadioButton
+        <CheckBox
             android:id="@+id/cat_adoption_spay_neuter_status"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
